@@ -1,6 +1,6 @@
 # AMOCA Certificate NFT
 
-This project is designed to create and manage NFTs for certificates using blockchain technology.
+This project is designed to create and manage NFTs for certificates using Solana blockchain technology.
 
 ## Setup Instructions
 

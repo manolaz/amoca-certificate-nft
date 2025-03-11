@@ -1,0 +1,30 @@
+{
+  "name": "amoca-certificate-nft",
+  "version": "1.0.0",
+  "description": "NFT certificates for healthcare using Sui blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "sui move build",
+    "test": "sui move test",
+    "publish": "sui client publish --gas-budget 10000000"
+  },
+  "keywords": [
+    "blockchain",
+    "nft",
+    "healthcare",
+    "sui",
+    "certificates"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mysten/sui": "1.22.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
